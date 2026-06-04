@@ -2,7 +2,7 @@
 
 End-to-end **child-speech TSE + SELECTION anonymization** on **900** two-speaker mixtures (AA / CA / CC × six overlap levels).
 
-Code on **GitHub**; large files on **Hugging Face**.
+Code: [github.com/pranavtushar/E2E-CHILD-TSE](https://github.com/pranavtushar/E2E-CHILD-TSE) — large files on **Hugging Face**.
 
 ## Hugging Face assets
 
