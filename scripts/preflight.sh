@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Quick checks before run.sh / run_smoke.sh. Exit 0 = ready.
+# Quick checks before run.sh. Exit 0 = ready.
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=env.sh
@@ -47,5 +47,5 @@ if [[ "$FAIL" -gt 0 ]]; then
   echo "FAILED ($FAIL checks). Fix above before bash run.sh"
   exit 1
 fi
-echo "All $OK checks passed. Run: bash run.sh  or  bash run_smoke.sh"
+echo "All $OK checks passed. Run: bash run.sh  (or SMOKE=1 bash run.sh)"
 exit 0

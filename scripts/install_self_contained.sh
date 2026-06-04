@@ -13,7 +13,8 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
-REPO_PARENT="$(cd "${ROOT}/../.." && pwd)"
+# Sibling repos (TSE-alpha, tse, latest-child-speech-inference) live next to this project.
+REPO_PARENT="$(cd "${ROOT}/.." && pwd)"
 
 SOURCE_DATA="${SOURCE_DATA:-${REPO_PARENT}/TSE-alpha/00_source_data}"
 SOURCE_TSE="${SOURCE_TSE:-${REPO_PARENT}/tse}"

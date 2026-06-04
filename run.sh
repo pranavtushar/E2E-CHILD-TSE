@@ -5,7 +5,7 @@
 #   bash run.sh
 #
 # Options:
-#   SMOKE=1        30 items only (or use run_smoke.sh)
+#   SMOKE=1        ~30 items only
 #   SKIP_CLEAN=1   keep mixtures; only wipe outputs/
 #   SKIP_MIX=1     skip mixture generation (use with SKIP_CLEAN=1)
 #   EER_ONLY=1 / WER_ONLY=1   evaluation subset
