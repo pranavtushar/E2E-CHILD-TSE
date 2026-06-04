@@ -1,0 +1,42 @@
+# Generated / runtime
+mixtures/
+outputs/
+results/
+logs/
+
+# Assets on Hugging Face (not GitHub)
+data/
+vendor/
+
+# HF tooling (local maintainer only)
+scripts/download_from_hf.sh
+scripts/upload_to_hf.sh
+scripts/install_assets.sh
+scripts/hf_cli.sh
+scripts/hf_repos.env
+scripts/hf_repos.env.example
+
+# Docs & smoke (HF + Hub README; optional locally)
+README.md
+OPEN_SOURCE_CHECKLIST.md
+docs/
+run_smoke.sh
+
+# EER cache (prefer HF vendor/speechbrain or auto-download)
+evaluation/scripts/eer/pretrained_models/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Large weights accidentally placed outside vendor/
+*.ckpt
+pretrained_models/
+
+# HF upload cache
+**/.cache/
+
+# OS
+.DS_Store
