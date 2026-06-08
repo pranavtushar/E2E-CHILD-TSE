@@ -25,12 +25,9 @@ hf download pranavtushar/e2e-child-tse-vendor --repo-type model --local-dir vend
 Local copy from sibling trees (no HF): `bash scripts/install_self_contained.sh`
 
 ## Run
+Set up the environment by following the instructions at SSL-CVA (https://github.com/pranavtushar/SSL-CVA)
 
 ```bash
-export PY=/root/miniconda3/envs/va_toolkit_py39/bin/python3
-unset ADULT_REFERENCE_DIR PYTHON
-
-bash scripts/preflight.sh
 bash run.sh
 ```
 
